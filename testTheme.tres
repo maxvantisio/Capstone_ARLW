@@ -1,0 +1,13 @@
+[gd_resource type="Theme" load_steps=4 format=3 uid="uid://gfhsfrvarcx8"]
+
+[ext_resource type="Texture2D" uid="uid://cq8b2px5hs8k" path="res://sprites/textboxTEMP.png" id="1_536mf"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hl8lt"]
+bg_color = Color(0.164706, 0.305882, 0.203922, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kjltq"]
+texture = ExtResource("1_536mf")
+
+[resource]
+Control/styles/normal = SubResource("StyleBoxFlat_hl8lt")
+TextEdit/styles/normal = SubResource("StyleBoxTexture_kjltq")

@@ -11,10 +11,40 @@ config_version=5
 [application]
 
 config/name="All Roads Lead West"
+run/main_scene="uid://bcnaoy2fn3l2w"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+
+[dialogue_manager]
+
+runtime/balloon_path="res://exampleDialogue/balloon.tscn"
+
+[display]
+
+window/size/viewport_width=1024
+window/size/viewport_height=1024
+window/stretch/mode="canvas_items"
 
 [editor]
 
 version_control/plugin_name="GitPlugin"
 version_control/autoload_on_startup=true
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
+
+[input]
+
+press_space={
+"deadzone": 0.2,
+"events": []
+}
+
+[internationalization]
+
+locale/translations_pot_files=PackedStringArray("res://dialogue/main.dialogue")
