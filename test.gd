@@ -9,7 +9,7 @@ func _ready() -> void:
 	# can also do:: var dialogue_line = await resource.get_next_dialogue_line("start")
 	
 	#if dialogue_resource:
-		#DialogueManager.show_dialogue_balloon(DialogueResource, start_title)
+		
 
 func _input(event):
 	# had to change from Input. to event. due to smth about global input states

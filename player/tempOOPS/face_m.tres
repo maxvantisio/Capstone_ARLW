@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dh7mu41mxeayd"]
+
+[ext_resource type="Texture2D" uid="uid://enkecxv4y8jb" path="res://player/tempOOPS/tempCharacterOOPS_Diffuse_1.png" id="1_dlo8s"]
+
+[resource]
+resource_name = "face_m"
+cull_mode = 2
+shading_mode = 0
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_dlo8s")
+disable_receive_shadows = true

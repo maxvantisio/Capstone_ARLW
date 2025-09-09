@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://cgxrfta4hn8bd"]
+
+[ext_resource type="Texture2D" uid="uid://dw7uui4glb0ct" path="res://player/tempOOPS/tempCharacterOOPS_Diffuse_2.png" id="1_ftaqh"]
+
+[resource]
+resource_name = "hashair001.001"
+cull_mode = 2
+shading_mode = 0
+albedo_texture = ExtResource("1_ftaqh")
+disable_receive_shadows = true
